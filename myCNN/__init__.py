@@ -21,7 +21,7 @@ import matplotlib.pyplot as plt
 EPOCH = 1               # train the training data n times, to save time, we just train 1 epoch
 BATCH_SIZE = 50
 LR = 0.001              # learning rate
-DOWNLOAD_MNIST = False
+DOWNLOAD_MNIST = True
 
 
 # Mnist digits dataset
