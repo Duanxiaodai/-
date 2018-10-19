@@ -85,6 +85,9 @@ class CNN(nn.Module):
 cnn = CNN()
 print(cnn)  # net architecture
 
+print(type(cnn))
+
+
 optimizer = torch.optim.Adam(cnn.parameters(), lr=LR)   # optimize all cnn parameters
 loss_func = nn.CrossEntropyLoss()                       # the target label is not one-hotted
 
